@@ -561,6 +561,8 @@ recommendation and deployment workflows.
   - Pareto frontier charts for two-dimensional trade-offs
   - Multi-dimensional radar charts (>2 dimensions)
   - Interactive cost/latency sliders with live recommendation updates
+- **Command-Line Interface**: Dedicated CLI for headless operation, CI/CD
+  integration, and scripted workflows (currently using Makefile for development)
 
 ### Telemetry Integration
 
@@ -606,6 +608,13 @@ recommendation and deployment workflows.
 
 - **Bring Your Own Data**: Allow users to upload custom performance and/or
   accuracy benchmarks to support new models, hardware, and traffic profiles
+
+### Multi-User Support
+
+- **Authentication and Authorization**: User accounts, role-based access control
+- **Isolated Workspaces**: Separate knowledge bases, specifications, and
+  deployment histories per user or organization
+- **Collaboration Features**: Shared recommendations, team review workflows
 
 ---
 
